@@ -9,7 +9,7 @@ This project contains a Bash script to automate the backup of a specified direct
 # Installation
  # 1.Ensure rsync is Installed:
    On most Linux distributions, 'rsync' can be installed using the package manager. For example, on Ubuntu:
-   # sudo apt-get install rsync
+   **sudo apt-get install rsync**
 
 # Usage
  # 1. Configure the Script:
@@ -23,11 +23,11 @@ This project contains a Bash script to automate the backup of a specified direct
 
  # 2. Make the Script Executable:
    Ensure the script has execute permissions:
-   #  chmod +x automated_backup.sh
+   **chmod +x automated_backup.sh**
 
 # 3. Run the Script:
   Execute the script to start the backup process:
-   # ./automated_backup.sh
+   **./automated_backup.sh**
 
 # Logging
   The script logs the start time, success, or failure of the backup operation to backup.log
